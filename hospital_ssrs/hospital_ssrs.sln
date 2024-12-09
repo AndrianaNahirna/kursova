@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "hospital_ssrs", "hospital_ssrs\hospital_ssrs.rptproj", "{55B1A87D-F0B5-48E0-828D-A796555EED8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.Debug|Default.ActiveCfg = Debug
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.Debug|Default.Build.0 = Debug
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.Debug|Default.Deploy.0 = Debug
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.DebugLocal|Default.Build.0 = DebugLocal
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.Release|Default.ActiveCfg = Release
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.Release|Default.Build.0 = Release
+		{55B1A87D-F0B5-48E0-828D-A796555EED8F}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4D0AFE-8AFB-49F3-B9A8-7D1134D034F7}
+	EndGlobalSection
+EndGlobal

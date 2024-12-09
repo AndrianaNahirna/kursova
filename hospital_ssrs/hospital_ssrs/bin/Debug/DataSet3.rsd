@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet3">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>EVALUATE SUMMARIZECOLUMNS('Dim Doctor'[First Name], 'Dim Doctor'[Last Name], 'Dim Patient'[First Name], 'Dim Patient'[Last Name], 'Fact Treatment'[ID], FILTER(VALUES('Date Start'[YEAR]), ('Date Start'[YEAR] = VALUE("2020"))), "Evaluation", [Evaluation])</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>DAX</CommandType>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Doctor</DimensionName>
+                    <HierarchyName>First Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Doctor].[First Name]</HierarchyUniqueName>
+                    <LevelName>First Name</LevelName>
+                    <UniqueName>[Dim Doctor].[First Name].[First Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>First Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Doctor</DimensionName>
+                    <HierarchyName>Last Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Doctor].[Last Name]</HierarchyUniqueName>
+                    <LevelName>Last Name</LevelName>
+                    <UniqueName>[Dim Doctor].[Last Name].[Last Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Last Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Patient</DimensionName>
+                    <HierarchyName>First Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Patient].[First Name]</HierarchyUniqueName>
+                    <LevelName>First Name</LevelName>
+                    <UniqueName>[Dim Patient].[First Name].[First Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>First Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Patient</DimensionName>
+                    <HierarchyName>Last Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Patient].[Last Name]</HierarchyUniqueName>
+                    <LevelName>Last Name</LevelName>
+                    <UniqueName>[Dim Patient].[Last Name].[Last Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Last Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Fact Treatment</DimensionName>
+                    <HierarchyName>ID</HierarchyName>
+                    <HierarchyUniqueName>[Fact Treatment].[ID]</HierarchyUniqueName>
+                    <LevelName>ID</LevelName>
+                    <UniqueName>[Fact Treatment].[ID].[ID]</UniqueName>
+                  </ID>
+                  <ItemCaption>ID</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Evaluation</MeasureName>
+                    <UniqueName>[Measures].[Evaluation]</UniqueName>
+                  </ID>
+                  <ItemCaption>Evaluation</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>PolyclinicDW</From>
+            <Filter>
+              <FilterItems>
+                <FilterItem>
+                  <HierarchyUniqueName>[Date Start].[YEAR]</HierarchyUniqueName>
+                  <Condition xsi:type="EqualTo">
+                    <Members>
+                      <Member>
+                        <MemberUniqueName>[Date Start].[YEAR].[All]</MemberUniqueName>
+                      </Member>
+                      <Member>
+                        <MemberUniqueName>[Date Start].[YEAR].&amp;[2020]</MemberUniqueName>
+                      </Member>
+                    </Members>
+                  </Condition>
+                </FilterItem>
+              </FilterItems>
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties>
+              <IncludeMemberValue>true</IncludeMemberValue>
+            </QueryProperties>
+          </QuerySpecification>
+          <Query>
+            <Statement>EVALUATE SUMMARIZECOLUMNS('Dim Doctor'[First Name], 'Dim Doctor'[Last Name], 'Dim Patient'[First Name], 'Dim Patient'[Last Name], 'Fact Treatment'[ID], FILTER(VALUES('Date Start'[YEAR]), ('Date Start'[YEAR] = VALUE("2020"))), "Evaluation", [Evaluation])</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="First_Name">
+        <DataField>Dim Doctor[First Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Last_Name">
+        <DataField>Dim Doctor[Last Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="First_Name2">
+        <DataField>Dim Patient[First Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Last_Name2">
+        <DataField>Dim Patient[Last Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID">
+        <DataField>Fact Treatment[ID]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Evaluation">
+        <DataField>[Evaluation]</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

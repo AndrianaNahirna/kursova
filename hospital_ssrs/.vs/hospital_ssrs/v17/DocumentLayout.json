@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\kursova\\hospital_ssrs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55B1A87D-F0B5-48E0-828D-A796555EED8F}|hospital_ssrs\\hospital_ssrs.rptproj|D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{55B1A87D-F0B5-48E0-828D-A796555EED8F}|hospital_ssrs\\hospital_ssrs.rptproj|solutionrelative:hospital_ssrs\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B1A87D-F0B5-48E0-828D-A796555EED8F}|hospital_ssrs\\hospital_ssrs.rptproj|D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{55B1A87D-F0B5-48E0-828D-A796555EED8F}|hospital_ssrs\\hospital_ssrs.rptproj|solutionrelative:hospital_ssrs\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B1A87D-F0B5-48E0-828D-A796555EED8F}|hospital_ssrs\\hospital_ssrs.rptproj|D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{55B1A87D-F0B5-48E0-828D-A796555EED8F}|hospital_ssrs\\hospital_ssrs.rptproj|solutionrelative:hospital_ssrs\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 369,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report3.rdl [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report3.rdl",
+              "RelativeDocumentMoniker": "hospital_ssrs\\Report3.rdl",
+              "ToolTip": "D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report3.rdl [Design]",
+              "RelativeToolTip": "hospital_ssrs\\Report3.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T16:27:19.787Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report2.rdl [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report2.rdl",
+              "RelativeDocumentMoniker": "hospital_ssrs\\Report2.rdl",
+              "ToolTip": "D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report2.rdl [Design]",
+              "RelativeToolTip": "hospital_ssrs\\Report2.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T16:19:00.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report1.rdl [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report1.rdl",
+              "RelativeDocumentMoniker": "hospital_ssrs\\Report1.rdl",
+              "ToolTip": "D:\\kursova\\hospital_ssrs\\hospital_ssrs\\Report1.rdl [Design]",
+              "RelativeToolTip": "hospital_ssrs\\Report1.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T14:12:21.676Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

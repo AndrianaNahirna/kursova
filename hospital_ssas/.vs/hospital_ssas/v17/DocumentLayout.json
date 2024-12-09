@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\kursova\\hospital_ssas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Fact Treatment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Fact Treatment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Disease.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Dim Disease.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Patient.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Dim Patient.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Doctor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Dim Doctor.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Medicine.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Dim Medicine.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Component.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Dim Component.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\PolyclinicDW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\PolyclinicDW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|D:\\kursova\\hospital_ssas\\hospital_ssas\\PolyclinicDW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{31CBBCB0-A83F-4A76-8813-71F495126C3B}|hospital_ssas\\hospital_ssas.dwproj|solutionrelative:hospital_ssas\\PolyclinicDW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 369,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fact Treatment.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Fact Treatment.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Fact Treatment.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Fact Treatment.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Fact Treatment.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:35.129Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Disease.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Disease.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Dim Disease.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Disease.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Dim Disease.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:33.505Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Patient.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Patient.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Dim Patient.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Patient.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Dim Patient.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:32.227Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Doctor.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Doctor.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Dim Doctor.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Doctor.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Dim Doctor.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:30.164Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Medicine.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Medicine.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Dim Medicine.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Medicine.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Dim Medicine.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:28.324Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Component.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Component.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Dim Component.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Component.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Dim Component.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:24.414Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PolyclinicDW.dsv [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\PolyclinicDW.dsv",
+              "RelativeDocumentMoniker": "hospital_ssas\\PolyclinicDW.dsv",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\PolyclinicDW.dsv [Design]",
+              "RelativeToolTip": "hospital_ssas\\PolyclinicDW.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-09T16:04:14.362Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Date.dim",
+              "RelativeDocumentMoniker": "hospital_ssas\\Dim Date.dim",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\Dim Date.dim [Design]",
+              "RelativeToolTip": "hospital_ssas\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T15:55:30.988Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PolyclinicDW.cube [Design]",
+              "DocumentMoniker": "D:\\kursova\\hospital_ssas\\hospital_ssas\\PolyclinicDW.cube",
+              "RelativeDocumentMoniker": "hospital_ssas\\PolyclinicDW.cube",
+              "ToolTip": "D:\\kursova\\hospital_ssas\\hospital_ssas\\PolyclinicDW.cube [Design]",
+              "RelativeToolTip": "hospital_ssas\\PolyclinicDW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-08T13:58:40.037Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>EVALUATE SUMMARIZECOLUMNS('Dim Patient'[Last Name], 'Dim Patient'[First Name], 'Date Start'[YEAR], "Fact Treatment Count", [Fact Treatment Count])</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>DAX</CommandType>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Patient</DimensionName>
+                    <HierarchyName>Last Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Patient].[Last Name]</HierarchyUniqueName>
+                    <LevelName>Last Name</LevelName>
+                    <UniqueName>[Dim Patient].[Last Name].[Last Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Last Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Patient</DimensionName>
+                    <HierarchyName>First Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Patient].[First Name]</HierarchyUniqueName>
+                    <LevelName>First Name</LevelName>
+                    <UniqueName>[Dim Patient].[First Name].[First Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>First Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Date Start</DimensionName>
+                    <HierarchyName>YEAR</HierarchyName>
+                    <HierarchyUniqueName>[Date Start].[YEAR]</HierarchyUniqueName>
+                    <LevelName>YEAR</LevelName>
+                    <UniqueName>[Date Start].[YEAR].[YEAR]</UniqueName>
+                  </ID>
+                  <ItemCaption>YEAR</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Fact Treatment Count</MeasureName>
+                    <UniqueName>[Measures].[Fact Treatment Count]</UniqueName>
+                  </ID>
+                  <ItemCaption>Fact Treatment Count</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>PolyclinicDW</From>
+            <Filter>
+              <FilterItems>
+                <FilterItem>
+                  <HierarchyUniqueName>[Fact Treatment].[ID]</HierarchyUniqueName>
+                  <Condition xsi:type="EqualTo">
+                    <Members>
+                      <Member>
+                        <MemberUniqueName>[Fact Treatment].[ID].[All]</MemberUniqueName>
+                      </Member>
+                    </Members>
+                  </Condition>
+                </FilterItem>
+              </FilterItems>
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties>
+              <IncludeMemberValue>true</IncludeMemberValue>
+            </QueryProperties>
+          </QuerySpecification>
+          <Query>
+            <Statement>EVALUATE SUMMARIZECOLUMNS('Dim Patient'[Last Name], 'Dim Patient'[First Name], 'Date Start'[YEAR], "Fact Treatment Count", [Fact Treatment Count])</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Last_Name">
+        <DataField>Dim Patient[Last Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="First_Name">
+        <DataField>Dim Patient[First Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="YEAR">
+        <DataField>Date Start[YEAR]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Fact_Treatment_Count">
+        <DataField>[Fact Treatment Count]</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-N5HP75N.Polyclinic"
+  DTS:DTSID="{737A4F0D-D03A-4DE2-AC4C-64682937F874}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-N5HP75N;Initial Catalog=Polyclinic;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-hospiital_ssis-{737A4F0D-D03A-4DE2-AC4C-64682937F874}DESKTOP-N5HP75N.Polyclinic;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
